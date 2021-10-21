@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "github_exporter"
+version = "0.1.0"
+description = "Prometheus Exporter For GitHub"
+authors = ["Manjusaka <me@manjusaka.me>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+prometheus-client = "^0.11.0"
+Flask = "^2.0.2"
+APScheduler = "^3.8.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
