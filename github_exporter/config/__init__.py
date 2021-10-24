@@ -8,7 +8,7 @@ METRIC_REGISTRY = CollectorRegistry()
 
 
 class Setting(BaseSettings):
-    repo_names: List[str] = []
+    repo_name: str = ""
     github_token: str = ""
 
 
